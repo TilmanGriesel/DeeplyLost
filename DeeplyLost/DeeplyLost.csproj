@@ -72,6 +72,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IslandItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IslandItems.Designer.cs">
+      <DependentUpon>IslandItems.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -80,12 +86,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RenameHomeNode.cs">
+    <Compile Include="RenameIslandNode.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RenameHomeNode.Designer.cs">
-      <DependentUpon>RenameHomeNode.cs</DependentUpon>
+    <Compile Include="RenameIslandNode.Designer.cs">
+      <DependentUpon>RenameIslandNode.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="IslandItems.resx">
+      <DependentUpon>IslandItems.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,8 +108,8 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="RenameHomeNode.resx">
-      <DependentUpon>RenameHomeNode.cs</DependentUpon>
+    <EmbeddedResource Include="RenameIslandNode.resx">
+      <DependentUpon>RenameIslandNode.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -116,6 +125,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CommandLine.txt" />
     <Content Include="DeeplyLost.ico" />
     <None Include="ico\DeeplyLost.ico" />
   </ItemGroup>

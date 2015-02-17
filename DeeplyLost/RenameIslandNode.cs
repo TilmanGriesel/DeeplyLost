@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace DeeplyLost
 {
-    public partial class RenameHomeNode : Form
+    public partial class RenameIslandNode : Form
     {
-        public RenameHomeNode()
+        public RenameIslandNode()
         {
             InitializeComponent();
         }

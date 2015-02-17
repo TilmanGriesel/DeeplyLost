@@ -124,6 +124,7 @@
             this.ClientSize = new System.Drawing.Size(684, 261);
             this.Controls.Add(this.panelIntro);
             this.Controls.Add(this.flowLayoutPanel);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "MainForm";

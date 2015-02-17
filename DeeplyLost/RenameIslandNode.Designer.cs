@@ -1,6 +1,6 @@
 ﻿namespace DeeplyLost
 {
-    partial class RenameHomeNode
+    partial class RenameIslandNode
     {
         /// <summary>
         /// Required designer variable.

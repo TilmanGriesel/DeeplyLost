@@ -1,0 +1,11 @@
+﻿
+Command Line Params:
+
+-mode all // Query all fully generated islands
+-offset [0-1000] // Pre-spwan offset (x,y,z) 
+
+// Example in case of pre-spwan problems
+// -> DeeplyLost.exe -offset 5
+
+// Example in case of ignoring the fire place rule
+// -> DeeplyLost.exe -mode all
