@@ -51,28 +51,28 @@ body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
   font-size: 1em;
   line-height: 1.5;
-  color: #6d6d6d;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  color: #444;
+  /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*/
+  background: #e7e7e7;
 }
 
 a {
-  color: #d5000d;
+  color: #e24307;
 }
 a:hover {
-  color: #c5000c;
+  color: #e24307;
 }
 
 header {
   padding-top: 35px;
-  padding-bottom: 25px;
+  padding-bottom: 100px;
 }
 
 header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 48px; font-weight: 900;
+  font-size: 48px; font-weight: 500;
   line-height: 1.2;
-  color: #303030;
+  color: #333;
   letter-spacing: -1px;
 }
 
@@ -86,7 +86,6 @@ header h2 {
 
 #container {
   min-height: 595px;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
 }
 
 .inner {
@@ -152,6 +151,9 @@ a.button span {
   padding-left: 50px;
 }
 
+#download-win span {
+  background: transparent url(../images/win-icon.png) 12px 50% no-repeat;
+}
 #download-zip span {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
 }
@@ -255,7 +257,7 @@ h3 {
   margin-bottom: 8px;
   font-size: 18px;
   font-weight: bold;
-  color: #d5000d;
+  color: #e24307;
 }
 
 h4 {
