@@ -70,7 +70,7 @@ header {
 
 header h1 {
   font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 48px; font-weight: 500;
+  font-size: 48px; font-weight: 900;
   line-height: 1.2;
   color: #333;
   letter-spacing: -1px;
@@ -196,6 +196,7 @@ pre code {
 
 ul, ol, dl {
   margin-bottom: 20px;
+  margin-left: 40px;
 }
 
 
@@ -326,6 +327,10 @@ footer a {
 }
 footer a:hover {
   color: #444;
+}
+
+small {
+  font-size: 12px;
 }
 
 /* MISC */
